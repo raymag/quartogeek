@@ -30,12 +30,13 @@
 
 .fs2{
   position: absolute;
-  top: 170%;
+  top: 190%;
   left: 35%;
-  overflow-y: hidden;
 }
 .pcontent{
   padding: 5% 10%;
   margin: auto;
   width: 80%;
+  height: 590px;
+  overflow: hidden;
 }

@@ -1,0 +1,43 @@
+#gal {
+  width: 100%;
+  height: auto;
+
+}
+#gal div{
+  float: left;
+  width: 30%;
+  height: 270px;
+  min-width: 100px;
+  min-height: 100px;
+  border: solid black 1px;
+  margin: 10px;
+  border-radius: 2%;
+  box-shadow: 3px 2px 6px #888;
+
+}
+.gal1{
+  background: url(../images/gal/code.jpg);
+}
+.gal2{
+  background: url(../images/gal/games.jpg);
+  background-size: cover;
+  background-repeat: round;
+  background-position: center;
+}
+.gal3{
+  background: url(../images/gal/info.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.gal4{
+  background: url(../images/gal/pixelbook.jpg);
+  background-size: cover;
+}
+.gal5{
+  background: url(../images/gal/info2.jpg);
+  background-size: cover;
+}
+.gal6{
+  background: url(../images/gal/google.jpg);
+  background-size: cover;
+}
