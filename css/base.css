@@ -1,0 +1,41 @@
+
+.i1{
+  background: url(../images/backs/taipei.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+.fs1{
+
+  position: absolute;
+  top: 28%;
+  left: 39%;
+  overflow-y: hidden;
+}
+.f1 h2{
+  color: #eee;
+  font-size: 46pt;
+  font-family: monospace;
+  padding: 5px;
+  border: 1px solid white;
+  background: rgba(2, 0, 2, 0.1);
+}
+.f1 p{
+  color: white;
+  font-size: 12pt;
+  font-family: monospace;
+  font-weight: 900;
+  text-align: center;
+}
+
+.fs2{
+  position: absolute;
+  top: 170%;
+  left: 35%;
+  overflow-y: hidden;
+}
+.pcontent{
+  padding: 5% 10%;
+  margin: auto;
+  width: 80%;
+}
