@@ -41,6 +41,10 @@
   background: url(../images/gal/gandalf.jpg);
   background-size: cover;
 }
+.gdeveloper{
+  background: url(../images/extras/me.jpg);
+  background-size: cover;
+}
 #gal div h3{ /* Estilizando Image-Containers Labels*/
   color: #eee;
   font-size: 30pt;

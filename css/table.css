@@ -1,0 +1,9 @@
+/* Estilo das tabelas */
+.dtable{
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+}
+.dtable th {
+  background: blue;
+}

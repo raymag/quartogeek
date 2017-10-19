@@ -1,4 +1,4 @@
-form{
+form{ /*Estilo dos Formulários*/
   margin: auto;
   width: 60%;
   font-size: 25pt;
@@ -16,7 +16,7 @@ label{
 textarea{
   width: 100%;
 }
-input[type=submit], input[type=reset]{
+input[type=submit], input[type=reset]{ /*Estilo dos botoes do form */
   padding: 3px;
   background: rgba(117, 70, 176, 0.8);
   border-radius: 8px;
@@ -31,7 +31,7 @@ input[type=submit]:hover, input[type=reset]:hover{
 input[type=submit]:active, input[type=reset]:active{
   color: white;
 }
-form h1{
+form h1{ /*Estilização dos titulos dentro do form*/
   font-size: 30pt;
   text-align: center;
 }
