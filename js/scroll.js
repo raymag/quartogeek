@@ -1,6 +1,7 @@
+// Arquivo usado para efeito de desaparecimento de objetos com base em jquery-3 //
 $(window).scroll(function() {
 
-if ($(this).scrollTop()>12)
+if ($(this).scrollTop()>52)
 {
    $('.h1').fadeOut();
 }

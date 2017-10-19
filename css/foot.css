@@ -1,0 +1,20 @@
+/* Estilo do rodapé */
+.main footer{
+  width: auto;
+  height: 65px;
+  background: #222;
+  border: solid black;
+  color: #eee;
+
+}
+.main footer p{
+  margin: 10px;
+  text-align: center;
+}
+#footer a{
+  text-decoration: none;
+  color: green;
+}
+#footer a:hover{
+  color: yellow;
+}

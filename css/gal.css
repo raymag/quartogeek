@@ -1,9 +1,6 @@
-#gal {
-  width: 100%;
-  height: auto;
+/* Esitlo da galeria */
 
-}
-#gal div{
+#gal div{ /* Definindo Image-Containers*/
   float: left;
   width: 30%;
   height: 270px;
@@ -13,16 +10,19 @@
   margin: 10px;
   border-radius: 2%;
   box-shadow: 3px 2px 6px #888;
-
+  align-items: center;
 }
+#gal h1{ /* Formato do Título da Galeria */
+  text-align: center;
+  color: rgba(0, 0, 89, 0.6);
+}
+/* Estabelecendo Backgrounds para Image-Containers */
 .gal1{
   background: url(../images/gal/code.jpg);
 }
 .gal2{
   background: url(../images/gal/games.jpg);
   background-size: cover;
-  background-repeat: round;
-  background-position: center;
 }
 .gal3{
   background: url(../images/gal/info.jpg);
@@ -30,7 +30,7 @@
   background-size: cover;
 }
 .gal4{
-  background: url(../images/gal/pixelbook.jpg);
+  background: url(../images/gal/music.jpg);
   background-size: cover;
 }
 .gal5{
@@ -38,6 +38,19 @@
   background-size: cover;
 }
 .gal6{
-  background: url(../images/gal/google.jpg);
+  background: url(../images/gal/gandalf.jpg);
   background-size: cover;
+}
+#gal div h3{ /* Estilizando Image-Containers Labels*/
+  color: #eee;
+  font-size: 30pt;
+  text-align: center;
+  overflow: hidden;
+  align-self: center;
+  font-family: fantasy;
+  border: #eee solid 1px;
+  background: rgba(180, 0, 255, 0.5);
+}
+.linkgal{ /* Elimina a underline dos links da galeria */
+  text-decoration: none;
 }

@@ -1,8 +1,9 @@
+/* Estilo do Menu */
 *{
-  padding: 0;
+  padding: 0; /* Facilita a construção do layout */
   margin: 0;
 }
-#menu {
+#menu { /* Estilização do Menu Principal */
   height: 6%;
   min-height: 45px;
   position: fixed;
@@ -11,7 +12,7 @@
   width: 100%;
   background: #222;
 }
-#menu li{
+#menu li{ /* Organizando os itens da lista */
   display: inline;
   font-size: 15pt;
 }
@@ -25,24 +26,24 @@
   background: #666;
 }
 
-#menu ul{
+#menu ul{ /* Organização da lista do menu */
   padding: 4px;
   float: right;
 }
-#menu h1{
+#menu h1{ /*Estilização do título */
   float: left;
   color: white;
   font-family: monospace;
   font-size: 20pt;
 }
-#area {
+#area { /*Delimitando subdiv do menu */
   padding: 5px;
   margin: auto;
   max-width: 700px;
   min-width: 700px;
 
 }
-.sgeek{
+.sgeek{ /* Efeito de Cyan Para Vermelho */
   color: cyan;
   letter-spacing: -1px;
 }
@@ -50,7 +51,36 @@
   transition: 1s;
   color: red;
 }
-.active{
+.active{ /* Efeito da aba ativa do menu */
   background: cyan;
   text-shadow: 2px 2px 5px purple;
+}
+
+.drop { /* Usado para criar um menu dropdown */
+    position: relative;
+    display: inline-block;
+}
+
+.drop-content { /* Usada em subdivs ocultas no menu */
+    display: none;
+    position: absolute;
+    background: darkcyan;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.4);
+    padding: 12px 16px;
+}
+.drop-content p{
+  color: white;
+}
+.drop:hover .drop-content {
+    display: block; /* Permite o reaparecimento das subdivs do menu */
+}
+.dshop{ /* Exclusiva para subdiv da aba GeShop*/
+  margin-top:10px;
+  margin-left: 288px;
+  min-width: 80px;
+}
+.dsobre{/* Exclusiva para subdiv da aba Sobre */
+  margin-top: 10px;
+  margin-left: 398px;
+  min-width: 10px;
 }

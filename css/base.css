@@ -1,18 +1,17 @@
-
-.i1{
+/* Estilo Base */
+.i1{ /*Primeiro ImageFrame */
   background: url(../images/backs/taipei.jpg);
   background-position: bottom;
   background-attachment: fixed;
   min-height: 500px;
 }
-.fs1{
-
+.fs1{ /* Edição do título do primeiro ImageFrame */
   position: absolute;
   top: 28%;
   left: 39%;
   overflow-y: hidden;
 }
-.f1 h2{
+.f1 h2{ /* Estilo dos títulos */
   color: #eee;
   font-size: 46pt;
   font-family: monospace;
@@ -20,7 +19,7 @@
   border: 1px solid white;
   background: rgba(2, 0, 2, 0.1);
 }
-.f1 p{
+.f1 p{ /* Formato dos parágrafos */
   color: white;
   font-size: 12pt;
   font-family: monospace;
@@ -28,15 +27,55 @@
   text-align: center;
 }
 
-.fs2{
+.fs2{ /* Edição do segundo ImageFrame */
   position: absolute;
-  top: 190%;
-  left: 35%;
+  bottom: -100%;
+  left: 38%;
 }
-.pcontent{
+.pcontent{ /* Estilo da subdiv das sessões */
   padding: 5% 10%;
   margin: auto;
   width: 80%;
-  height: 590px;
   overflow: hidden;
+  font-size: 15pt;
+}
+.i3{ /* ImageFrame que comporta "Desenvolvedores" */
+  background: url(../images/backs/cb.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  border-radius: 1%;
+  width: 100%;
+  color: rgba(0, 0, 0, 0);
+  min-height: 300px;
+}
+.i3 h1{ /* Efeito de Galaxy Cat */
+  color: white;
+  font-size: 52pt;
+  padding: 15px;
+  text-align: center;
+  font-family: monospace;
+  background: url(../images/backs/cg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.cargos{ /* Estilização da Tabela Cargos */
+  margin: 10px auto;
+  width: 80%;
+  text-align: center;
+}
+.cargos th{
+  background: rgba(200, 0, 50, 0.7);
+}
+.cargos td{
+  background: rgba(50, 0 , 250, 0.8);
+}
+.developer{ /*Developer Link*/
+  padding: 2px;
+  text-decoration: none;
+  color: darkblue;
+  border-radius: 10%;
+}
+.developer:hover{
+  background: purple;
+  color: white;
 }
