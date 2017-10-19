@@ -79,3 +79,21 @@
   background: purple;
   color: white;
 }
+form{
+  margin: auto;
+  width: 60%;
+  font-size: 25pt;
+}
+fieldset{
+    padding: 10px;
+}
+input{
+  margin: 10px;
+  font-size: 18pt;
+}
+label{
+  margin: auto;
+}
+textarea{
+  width: 100%;
+}
