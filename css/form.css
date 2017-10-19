@@ -1,0 +1,37 @@
+form{
+  margin: auto;
+  width: 60%;
+  font-size: 25pt;
+}
+fieldset{
+    padding: 10px;
+}
+input{
+  margin: 10px;
+  font-size: 18pt;
+}
+label{
+  margin: auto;
+}
+textarea{
+  width: 100%;
+}
+input[type=submit], input[type=reset]{
+  padding: 3px;
+  background: rgba(117, 70, 176, 0.8);
+  border-radius: 8px;
+  outline: inherit;
+  width: 200px;
+  margin: auto;
+  border: none;
+}
+input[type=submit]:hover, input[type=reset]:hover{
+  background: rgba(88,53,133, 0.8);
+}
+input[type=submit]:active, input[type=reset]:active{
+  color: white;
+}
+form h1{
+  font-size: 30pt;
+  text-align: center;
+}
