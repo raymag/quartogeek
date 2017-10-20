@@ -3,7 +3,27 @@
   margin: 10px auto;
   width: 80%;
   text-align: center;
+  float: right;
 }
 .dtable th {
-  background: blue;
+  background: rgba(200, 0, 50, 0.7);
+}
+.dtable td{
+  background: rgba(50, 0 , 250, 0.8);
+  color: #cdcdcd;
+}
+#gal .gdeveloper{
+  width: 20%;
+  height: 210px;
+  min-width: 200px;
+  min-height: 100px;
+  box-shadow: 3px 4px 8px #222;
+  border: none;
+  border-radius: 100%;
+}
+.devgal{
+  float: left;
+}
+#pdev{
+  color: #2a2a2a;
 }

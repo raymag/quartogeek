@@ -1,0 +1,50 @@
+/* Estilo de Construção */
+#i1{
+  background: url(../images/backs/bglass.jpg);
+  background-attachment: fixed;
+}
+#doe{
+  background: url(../images/backs/together.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+#dev{
+  background: url(../images/backs/san.jpg);
+  background-position: bottom;
+  background-attachment: fixed;
+}
+#games{
+  background: url(../images/backs/knight.jpg);
+  background-attachment: fixed;
+}
+#musica{
+  background: url(../images/backs/guitar.jpg);
+  background-attachment: fixed;
+}
+#software{
+  background: url(../images/backs/code.jpg);
+  background-attachment: fixed;
+}
+#info {
+  background: url(../images/backs/net.jpg);
+  background-attachment: fixed;
+  background-position: bottom;
+}
+#filmes{
+  background: url(../images/backs/cine.jpg);
+  background-attachment: fixed;
+}
+#hardware{
+  background: url(../images/backs/hard.jpg);
+  background-attachment: fixed;
+  background-position: center;
+}
+#bd {
+  border: solid 1px #cdcdcd;
+  border-radius: 10px;
+  padding: 10px;
+}
+#bd fieldset{
+  padding: 10px;
+  border-radius: 10px;
+}

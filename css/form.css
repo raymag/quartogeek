@@ -35,3 +35,6 @@ form h1{ /*Estilização dos titulos dentro do form*/
   font-size: 30pt;
   text-align: center;
 }
+#idade{
+  width: 60px;
+}

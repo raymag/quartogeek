@@ -41,7 +41,7 @@
   background: url(../images/gal/gandalf.jpg);
   background-size: cover;
 }
-.gdeveloper{
+.gdeveloper{ /* ImageFrame da página do desenvolvedor */
   background: url(../images/extras/me.jpg);
   background-size: cover;
 }
