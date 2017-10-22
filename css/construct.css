@@ -39,12 +39,7 @@
   background-attachment: fixed;
   background-position: center;
 }
-#bd {
-  border: solid 1px #cdcdcd;
-  border-radius: 10px;
-  padding: 10px;
-}
-#bd fieldset{
-  padding: 10px;
-  border-radius: 10px;
+#geshop{
+  background: url(../images/backs/blueprint.jpg);
+  background-attachment: fixed;
 }

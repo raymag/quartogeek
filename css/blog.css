@@ -1,0 +1,108 @@
+/* Estilo destinado aos posts das páginas temas*/
+
+.pcontent fieldset{ /* Estilo dos fieldsets*/
+  padding: 10px;
+  border-radius: 10px;
+  color: #4f4f4f;
+  border: solid #cdcdcd;
+  min-width: 600px;
+}
+.pcontent .if{/*Estilo dos Containers dos IFrames*/
+  margin: 15px auto;
+  width: 560px;
+  height: 315px;
+
+}
+.if iframe{ /*Estilo dos Iframe*/
+  border-radius: 3%;
+  box-shadow: 3px 3px 12px #222;
+
+}
+.pcontent h1{/*Alinhamento dos títulos*/
+  text-align: center;
+}
+table{/*Estilização das Tabelas*/
+  width: 100%;
+}
+.td1{/*Alinhamento das células*/
+  text-align: left;
+}
+.td2{
+  text-align: right;
+}
+hr{
+  border: solid #cdcdcd 1px
+}
+.fonte{/*Estilização da área de fonte*/
+  font-size: 22pt;
+  padding: 2px;
+  background: #fdfdfd;
+}
+a{
+  text-decoration: none;
+  color: darkcyan;
+}
+.img{
+  margin: auto;
+  width: 600px;
+}
+.img img{
+  width: 600px;
+  border-radius: 10px;
+}
+.f1{
+  color: #444;
+}
+.text{/*Estilo do span text*/
+  color: #444;
+  font-size: 18pt;
+  margin: 15px;
+}
+.text ul, ol {
+  text-align: center;
+}
+.text li {
+  margin-bottom: 90px;
+  margin-left: 40px;
+  font-size: 30pt;
+}
+.text li .img{
+  margin-top: 30px;
+}
+.text td img{
+  width: 100%;
+}
+.game1{/*Imagem do primeiro Post da página Game*/
+  background: url(../images/backs/granturismo.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.game2{
+  background: url(../images/backs/destiny2.jpg);
+  background-attachment: fixed;
+}
+.game3{
+  background: url(../images/backs/starwarsbattlefrontii.jpg);
+  background-attachment: fixed;
+}
+.soft1{
+  background: url(../images/backs/droid.jpg);
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.soft2{
+  background: url(../images/backs/edit.jpeg);
+  background-attachment: fixed;
+  background-position: bottom;
+}
+.filmes1{
+  background: url(../images/backs/thor.jpg);
+  background-attachment: fixed;
+  background-position: top;
+}
+.filmes2{
+  background: url(../images/backs/ww.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: contain;
+}

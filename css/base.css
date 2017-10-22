@@ -6,10 +6,11 @@
   min-height: 500px;
 }
 .fs1{ /* Edição do título do primeiro ImageFrame */
-  position: absolute;
-  top: 28%;
-  left: 39%;
-  overflow-y: hidden;
+  min-width: 248px;
+  width: 28%;
+  margin: auto;
+  padding-top: 15%;
+  text-align: center;
 }
 .f1 h2{ /* Estilo dos títulos */
   color: #eee;
