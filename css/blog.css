@@ -126,3 +126,10 @@ a{ /* Nova estilização dos links*/
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
+}
+.info2{
+  background: url(../images/backs/micro.png);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
