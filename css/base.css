@@ -5,8 +5,8 @@
   background-attachment: fixed;
   min-height: 500px;
 }
-.fs1{ /* Edição do título do primeiro ImageFrame */
-  min-width: 248px;
+.fs1{ /* Edição do título do primeiro tipo de ImageFrame */
+  min-width: 348px;
   width: 28%;
   margin: auto;
   padding-top: 15%;
@@ -28,7 +28,7 @@
   text-align: center;
 }
 
-.fs2{ /* Edição do segundo ImageFrame */
+.fs2{ /* Edição do segundo tipo de ImageFrame */
   position: absolute;
   bottom: -100%;
   left: 38%;

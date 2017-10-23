@@ -38,11 +38,11 @@ hr{
   padding: 2px;
   background: #fdfdfd;
 }
-a{
+a{ /* Nova estilização dos links*/
   text-decoration: none;
   color: darkcyan;
 }
-.img{
+.img{/* Estilização da div das imagens*/
   margin: auto;
   width: 600px;
 }
@@ -50,7 +50,7 @@ a{
   width: 600px;
   border-radius: 10px;
 }
-.f1{
+.f1{/* Modificação da cor padrão dos f1*/
   color: #444;
 }
 .text{/*Estilo do span text*/
@@ -58,10 +58,10 @@ a{
   font-size: 18pt;
   margin: 15px;
 }
-.text ul, ol {
+.text ul, ol {/* Centralização dos textos das listas*/
   text-align: center;
 }
-.text li {
+.text li {/* Estilo dos itens das listas dentro do span text*/
   margin-bottom: 90px;
   margin-left: 40px;
   font-size: 30pt;
@@ -72,37 +72,57 @@ a{
 .text td img{
   width: 100%;
 }
+.subtext{ /* Span com menor tamanho de fonte*/
+  font-size: 18pt;
+}
 .game1{/*Imagem do primeiro Post da página Game*/
   background: url(../images/backs/granturismo.jpg);
   background-attachment: fixed;
   background-size: cover;
 }
-.game2{
+.game2{/* Imagem do segundo Post da página Game*/
   background: url(../images/backs/destiny2.jpg);
   background-attachment: fixed;
 }
-.game3{
+.game3{/* Imagem do terceiro Post da página Game*/
   background: url(../images/backs/starwarsbattlefrontii.jpg);
   background-attachment: fixed;
 }
-.soft1{
+.soft1{/* Imagem do primeiro Post da página Software*/
   background: url(../images/backs/droid.jpg);
   background-attachment: fixed;
   background-position: bottom;
 }
-.soft2{
+.soft2{/* Imagem do segundo Post da página Software*/
   background: url(../images/backs/edit.jpeg);
   background-attachment: fixed;
   background-position: bottom;
 }
-.filmes1{
+.filmes1{/* Imagem do primeiro Post da página Filmes*/
   background: url(../images/backs/thor.jpg);
   background-attachment: fixed;
   background-position: top;
 }
-.filmes2{
+.filmes2{/* Imagem do segundo Post da página Filmes*/
   background: url(../images/backs/ww.jpg);
   background-attachment: fixed;
   background-position: center;
   background-size: contain;
 }
+.musica1{/* Imagem do primeiro Post da página Música*/
+  background: url(../images/backs/catto.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.musica2{/* Imagem do segundo Post da página Música*/
+  background: url(../images/backs/ss.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.info1{/* Imagem do primeiro Post da página Info*/
+  background: url(../images/backs/vrb.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
