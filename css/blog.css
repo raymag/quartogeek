@@ -53,10 +53,12 @@ a{ /* Nova estilização dos links*/
 .f1{/* Modificação da cor padrão dos f1*/
   color: #444;
 }
+
 .text{/*Estilo do span text*/
   color: #444;
   font-size: 18pt;
   margin: 15px;
+  font-family: 'Open Sans', sans-serif;
 }
 .text ul, ol {/* Centralização dos textos das listas*/
   text-align: center;

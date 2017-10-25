@@ -25,7 +25,6 @@
 #menu a:hover{
   background: #666;
 }
-
 #menu ul{ /* Organização da lista do menu */
   padding: 4px;
   float: right;
@@ -36,6 +35,11 @@
   font-family: monospace;
   font-size: 20pt;
 }
+i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da página */
+  height: 20px;
+  width: 20px;
+}
+
 #area { /*Delimitando subdiv do menu */
   padding: 5px;
   margin: auto;
@@ -75,12 +79,12 @@
     display: block; /* Permite o reaparecimento das subdivs do menu */
 }
 .dshop{ /* Exclusiva para subdiv da aba GeShop*/
-  margin-top:10px;
+  margin-top:12px;
   margin-left: 288px;
-  min-width: 80px;
+  min-width: 75px;
 }
 .dsobre{/* Exclusiva para subdiv da aba Sobre */
-  margin-top: 10px;
-  margin-left: 398px;
-  min-width: 10px;
+  margin-top: 12px;
+  margin-left: 401px;
+  min-width: 7px;
 }

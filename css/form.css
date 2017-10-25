@@ -10,6 +10,10 @@ input{
   margin: 10px;
   font-size: 18pt;
 }
+select{
+  font-size: 18pt;
+  width: 60%;
+}
 label{
   margin: auto;
 }

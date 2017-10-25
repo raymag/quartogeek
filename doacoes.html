@@ -49,15 +49,21 @@
     <fieldset>
     <fieldset>
     <legend>Dados Básicos</legend>
-    <label>Primeiro Nome: <input type="text" required autofocus maxlength="12" size="27"></label><br>
-    <label>Sobrenome: <input type="text" required autofocus maxlength="12" size='31'></label><br>
-    <label>E-mail: <input type="email" required placeholder='Ex: cukabludo@algo.com' size='35'></label><br>
-    <label>Telefone: <input required type="number"></label>
-    <label>Idade:<input type="number" min='2' max='110' id='idade'></label>
-  </fieldset>
-  <fieldset>
-    <legend>Menssagem</legend>
-    <textarea rows='10'></textarea>
+    <label>Tipo de Cartão: <select class="cardtype">
+      <option value="visa">Visa (1x)</option>
+      <option value="visa">Mastercard (1x)</option>
+      <option value="visa">Banco do Brasil (1x)</option>
+      <option value="visa">Diners (1x)</option>
+    </select></label><br>
+    <label>Validade: <input type="number" required min='1' max='12'>/20<input type="number" min='0' max='99' required></label><br>
+    <label>Código de Segurança: <input type="number" required maxlength="3"></label><br>
+    <label>Nome no Cartão: <input type="text" required maxlength="34"></label><br>
+    <label>Doar R$: <select>
+     <option value="10">10</option>
+     <option value="30">30</option>
+     <option value="50">50</option>
+     <option value="100">100</option>
+    </select></label>
   </fieldset>
   <input type="submit" value="Enviar">
   <input type="reset" value="Cancelar">
