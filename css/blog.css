@@ -133,3 +133,9 @@ a{ /* Nova estilização dos links*/
   background-position: center;
   background-size: cover;
 }
+.hardware1{
+  background: url(../images/backs/positivo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
