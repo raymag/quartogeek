@@ -14,7 +14,7 @@
 }
 #menu li{ /* Organizando os itens da lista */
   display: inline;
-  font-size: 15pt;
+  font-size: 19px;
 }
 #menu a{
   text-decoration: none;
@@ -33,7 +33,7 @@
   float: left;
   color: white;
   font-family: monospace;
-  font-size: 20pt;
+  font-size: 28px;
 }
 i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da página */
   height: 20px;
@@ -44,7 +44,7 @@ i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da p�
   padding: 5px;
   margin: auto;
   max-width: 750px;
-  min-width: 700px;
+  min-width: 800px;
 
 }
 .sgeek{ /* Efeito de Cyan Para Vermelho */
