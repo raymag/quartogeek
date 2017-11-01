@@ -43,7 +43,7 @@ i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da p�
 #area { /*Delimitando subdiv do menu */
   padding: 5px;
   margin: auto;
-  max-width: 700px;
+  max-width: 750px;
   min-width: 700px;
 
 }

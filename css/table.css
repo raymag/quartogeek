@@ -46,7 +46,8 @@
 }
 #developer-network a{ /* Estilização dos links */
   text-decoration: none;
-  font-size: 14pt;
+  font-size: 16px;
+  outline: none;
 }
 #developer-network span{ /* Estilização dos links-span */
   border-radius: 50px;
