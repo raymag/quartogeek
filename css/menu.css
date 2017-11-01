@@ -80,11 +80,11 @@ i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da p�
 }
 .dshop{ /* Exclusiva para subdiv da aba GeShop*/
   margin-top:12px;
-  margin-left: 288px;
-  min-width: 75px;
+  margin-left: 279px;
+  min-width: 72px;
 }
 .dsobre{/* Exclusiva para subdiv da aba Sobre */
   margin-top: 12px;
-  margin-left: 401px;
-  min-width: 7px;
+  margin-left: 389px;
+  min-width: 6px;
 }
