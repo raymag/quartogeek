@@ -1,7 +1,7 @@
 /* Estilo do rodapé */
 .main footer{
   width: auto;
-  height: 65px;
+  height: 100%;
   background: #222;
   border: solid black;
   color: #eee;

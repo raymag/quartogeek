@@ -4,8 +4,7 @@
   margin: 0;
 }
 #menu { /* Estilização do Menu Principal */
-  height: 6%;
-  min-height: 45px;
+  height: 45px;
   position: fixed;
   top: 0;
   left: 0;
