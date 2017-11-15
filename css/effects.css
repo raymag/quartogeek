@@ -15,5 +15,7 @@
   opacity: 1;
   font-size: 20pt;
   transition: 0.5s;
-
+}
+.black-gray{
+  color: rgba(0, 0, 0, 0.8);
 }
