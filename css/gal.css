@@ -58,3 +58,6 @@
 .linkgal{ /* Elimina a underline dos links da galeria */
   text-decoration: none;
 }
+#gal div h3 .linkgal:hover{
+  background: rgba(180, 0, 255, 1);
+}

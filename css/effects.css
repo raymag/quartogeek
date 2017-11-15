@@ -7,10 +7,13 @@
   -ms-user-select: none;
   user-select: none;
 }
-.o1{
-  opacity: 0.8
+.o1{ /*Efeitos dos subtítulos das páginas*/
+  opacity: 0.8;
+  transition: 0.5s;
 }
 .o1:hover{
   opacity: 1;
   font-size: 20pt;
+  transition: 0.5s;
+
 }

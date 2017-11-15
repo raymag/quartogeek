@@ -20,9 +20,11 @@
   color: #ddd;
   margin: 5px 1px;
   padding: 15px 5px;
+  transition: 0.2s;
 }
 #menu a:hover{
   background: #666;
+  transition: 0.4s;
 }
 #menu ul{ /* Organização da lista do menu */
   padding: 4px;
@@ -33,6 +35,7 @@
   color: white;
   font-family: monospace;
   font-size: 28px;
+  margin: 0;
 }
 i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da página */
   height: 20px;
@@ -49,6 +52,7 @@ i{ /* Bloco para impedir diminuição do tamanho dos links no carregamento da p�
 .sgeek{ /* Efeito de Cyan Para Vermelho */
   color: cyan;
   letter-spacing: -1px;
+  transition: 1.5s;
 }
 .sgeek:hover{
   transition: 1s;
