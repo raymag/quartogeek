@@ -1,11 +1,9 @@
 /* Esitlo da galeria */
-
 #gal div{ /* Definindo Image-Containers*/
   float: left;
-  width: 30%;
+  width: 31%;
   height: 270px;
-  min-width: 150px;
-  min-height: 100px;
+  min-width: 200px;
   border: solid rgba(0, 0, 0, 0.7) 1px;
   margin: 10px;
   border-radius: 2%;
@@ -65,4 +63,90 @@
 }
 .linkgal{ /* Elimina a underline dos links da galeria */
   text-decoration: none;
+}
+/*Estilizo da Galeria de Itens da Loja*/
+.sgal1 {
+  background: url('../images/geshop/choose.jpg');
+  background-size: cover;
+}
+.sgal2 {
+  background: url('../images/geshop/gimmebr.jpg');
+  background-size: cover;
+}
+.sgal3 {
+  background: url('../images/geshop/gohan.jpg');
+  background-size: cover;
+}
+.sgal4 {
+  background: url('../images/geshop/luffyaf.jpg');
+  background-size: cover;
+}
+.sgal5 {
+  background: url('../images/geshop/r2d2.jpg');
+  background-size: cover;
+}
+.sgal6 {
+  background: url('../images/geshop/ssj3.jpg');
+  background-size: cover;
+}
+#gal div:hover #subSgal{
+  display: block;
+  background: rgba(0, 0, 0, 0.3);
+}
+#gal #subSgal{
+  background: rgba(0, 0, 0, 0);
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-y: scroll;
+  display: none;
+}
+#subSgal h4{
+  color: #eee;
+  font-size: 32px;
+  font-family: monospace;
+  text-align: center;
+  border-bottom: 5px solid rgba(255, 255, 255, 0.2);
+}
+#btSGal{
+  margin: auto;
+  color: rgba(160, 0, 255, 0.7);
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 10%;
+  margin-left: 5%;
+  outline: none;
+  height: 20%;
+  width: 90%;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.8);
+}
+.price{
+  font-size: 20px;
+  color: white;
+}
+.price b{
+  color: #0ff;
+}
+.btCar{
+  width: 60%;
+  margin: 0 20% 10px 20%;
+}
+#cover {
+  background: rgba(0, 0, 0, 0.8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 245%;
+  display: none;
+}
+#buycar{
+  width: 80%;
+  background: #fff;
+  min-width: 300px;
+  margin: 30% 10%;
+  border-radius: 15px;
+  padding: 20px;
 }

@@ -19,8 +19,9 @@
       <title>QUARTO GEEK - GeShop</title>
     <script type="text/javascript" src="js/jquery-3.2.1.js"></script>
     <script type="text/javascript" src='js/scroll.js'></script>
+    <script type='text/javascript' src='js/geshop.js'></script>
   </head>
-  <body>
+  <body id='body'>
     <nav id='menu'>
       <div id="area">
         <h1>Quarto<span class='sgeek'>GEEK</span></h1>
@@ -37,15 +38,128 @@
 <div class="main" id='main'>
   <div class="i1" id='geshop'>
     <div class="f1 fs1 noselect h1">
-    <h2>Em Breve</h2>
-    <p><span class='sgeesk o1'> Página em Construção</span></p>
+    <h2>Geshop</h2>
+    <p><span class='sgeesk o1'>A sua loja GEEK</span></p>
     </div>
   </div>
 
+<div id='cover'>
+  <div id='buycar'>
+    <form action="" method="">
+      <fieldset>
+        <legend>Informe seus Dados</legend>
+        <label>Nome: <input type="text" required size=40> </label><br>
+        <label>E-Mail: <input type="email" required size=39> </label><br>
+        <label>Telefone: (<input type='number' required min='0' max='999' maxlength="3"/>) - <input type="text" size=22 maxlength="9"></label><br>
+        <fieldset>
+          <legend>Logadouro</legend>
+        <label>Estado: <select required>
+        <optgroup label="Norte">
+          <option value="AC">Acre</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="PA">Pará</option>
+          <option value="RN">Rodônia</option>
+          <option value="RO">Roraima</option>
+          <option value="TO">Tocatins</option>
+        </optgroup>
+        <optgroup label="Nordeste">
+          <option value="AL">Alagoas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="MA">Maranhão</option>
+          <option value="PA">Paraíba</option>
+          <option value="PE">Pernambuco</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="SE">Sergipe</option>
+        </optgroup>
+        <optgroup label="Centro-Oeste">
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="GO">Goías</option>
+        </optgroup>
+        <optgroup label="Sudeste">
+          <option value="ES">Espírito Santo</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="SP">São Paulo</option>
+        </optgroup>
+        <optgroup label="Sul">
+          <option value="PR">Paraná</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="SC">Santa Catarina</option>
+        </optgroup>
+      </select></label><br>
+      <label>Município: <input type="text" size=20 maxlength="20"></label><br>
+        </fieldset>
+        <fieldset>
+          <legend>Dados Bancários</legend>
+          <label>Tipo de Cartão: <select class="cardtype">
+            <option value="visa">Visa (1x)</option>
+            <option value="visa">Mastercard (1x)</option>
+            <option value="visa">Banco do Brasil (1x)</option>
+            <option value="visa">Diners (1x)</option>
+          </select></label><br>
+          <label>Validade: <input type="number" required min='1' max='12'>/20<input type="number" min='0' max='99' required></label><br>
+          <label>Código de Segurança: <input type="number" required maxlength="3"></label><br>
+          <label>Nome no Cartão: <input type="text" required maxlength="34"></label><br>
+        </fieldset>
+        <input type="submit" value="Comprar" onclick="confirm()"> <input type="reset" value="Cancelar" onclick="closeCover()"> <br>
+      </fieldset>
+
+    </form>
+  </div>
+</div>
+
 <div class="f1">
 <div class='pcontent'>
-  <h1 class='black-gray'>A Loja ainda não está pronta... Estamos acumulando fundos para construí-la.
-    Ela logo estará disponível. Desde já, agradecemos.</h1>
+<div id='gal'>
+  <h1 id='status'>Você possui 0 itens <br> no Carrinho (R$ 0 )</h1>
+  <button type="button" class='btCar' onclick='buyCar()'>Confirmar Carrinho</button><br>
+  <button type="button" class='btCar' onclick='resetCar()'>Resetar Carrinho</button><br>
+  <div class="sgal1">
+    <div id="subSgal">
+      <h4>Camiseta - Choose your Weapon</h4>
+      <button type="button" id='btSGal' onclick='addCar(39.90)'>Adicionar ao Carrinho</button>
+      <h4><span class='price'>Apenas por: <b>R$ 39, 90</b></span></h4>
+    </div>
+  </div>
+  <div class="sgal2">
+    <div id="subSgal">
+      <h4>Camiseta - Gimme a Break</h4>
+      <button type="button" id='btSGal' onclick="addCar(39.95)">Adicionar ao Carrinho</button>
+      <h4><span class='price'>Apenas por: <b>R$ 39, 95</b></span></h4>
+    </div>
+  </div>
+  <div class="sgal3">
+    <div id="subSgal">
+      <h4>Gohan - Action Figure</h4>
+      <button type="button" id='btSGal' onclick="addCar(159.80)">Adicionar ao Carrinho</button>
+      <h4><span class='price'>Apenas por: <b>R$ 159, 80</b></span></h4>
+    </div>
+  </div>
+  <div class="sgal4">
+    <div id="subSgal">
+      <h4>Luffy - One Piece - Figure Action</h4>
+      <button type="button" id='btSGal' onclick="addCar(188.90)">Adicionar ao Carrinho</button>
+      <h4><span class='price'>Apenas por: <b>R$ 188, 90</b></span></h4>
+    </div>
+  </div>
+  <div class="sgal5">
+    <div id="subSgal">
+      <h4>Caneca - R2D2 Star Wars</h4>
+      <button type="button" id='btSGal' onclick="addCar(45.95)">Adicionar ao Carrinho</button>
+      <h4><span class='price'>Apenas por: <b>R$ 45, 95</b></span></h4>
+    </div>
+  </div>
+  <div class="sgal6">
+    <div id="subSgal">
+      <h4>Goku SSJ3 - Figure Action</h4>
+      <button type="button" id='btSGal' onclick="addCar(219.60)">Adicionar ao Carrinho</button>
+      <h4><span class='price'>Apenas por: <b>R$ 219, 60</b></span></h4>
+    </div>
+  </div>
+</div>
 </div>
 </div>
 
