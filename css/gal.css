@@ -102,14 +102,14 @@
   overflow-y: scroll;
   display: none;
 }
-#subSgal h4{
+#subSgal h4{ /* Sub div de cada item da galeria das comprar */
   color: #eee;
   font-size: 32px;
   font-family: monospace;
   text-align: center;
   border-bottom: 5px solid rgba(255, 255, 255, 0.2);
 }
-#btSGal{
+#btSGal{ /*Estilo do botão da galeria da loja */
   margin: auto;
   color: rgba(160, 0, 255, 0.7);
   font-weight: 600;
@@ -133,7 +133,7 @@
   width: 60%;
   margin: 0 20% 10px 20%;
 }
-#cover {
+#cover { /* Escurecimento da página ao comprar na loja*/
   background: rgba(0, 0, 0, 0.8);
   position: absolute;
   top: 0;
@@ -142,11 +142,12 @@
   height: 245%;
   display: none;
 }
-#buycar{
+#buycar{ /*Popup que abre ao clickar no botão de compra de carrinho */
   width: 80%;
   background: #fff;
   min-width: 300px;
   margin: 30% 10%;
   border-radius: 15px;
   padding: 20px;
+  overflow: scroll;
 }
