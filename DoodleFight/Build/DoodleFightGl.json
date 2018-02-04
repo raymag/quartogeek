@@ -1,0 +1,14 @@
+{
+"companyName": "Raymag",
+"productName": "DoodleFight",
+"dataUrl": "DoodleFightGl.data.unityweb",
+"asmCodeUrl": "DoodleFightGl.asm.code.unityweb",
+"asmMemoryUrl": "DoodleFightGl.asm.memory.unityweb",
+"asmFrameworkUrl": "DoodleFightGl.asm.framework.unityweb",
+"TOTAL_MEMORY": 268435456,
+"graphicsAPI": ["WebGL 2.0", "WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"backgroundUrl": "DoodleFightGl.jpg",
+"splashScreenStyle": "Dark",
+"backgroundColor": "#FFFFFF"
+}
